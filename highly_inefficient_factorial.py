@@ -24,4 +24,5 @@ def fact(k):
           print(f'{s/j} is even close to {len(k)}!')
     print('Conclusion: ', len(k), '! = ', int(round(s/j, 0)), sep = '')  
     
+    
 fact('yess') #returns 4!
