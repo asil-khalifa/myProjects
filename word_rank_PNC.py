@@ -23,6 +23,6 @@ def rank(st, st_):
         st = st[:st.find(ch)]+st[st.find(ch)+1:]
     return int(rank+1)
 
-st_ = input('Enter the word: ')
+st_ = input('Enter the word: ').lower()
 st = arrange(st_)
 print(rank(st, st_))
